@@ -11,7 +11,7 @@ def main():
     root.withdraw()
     # open individual file
     # file_path = filedialog.askopenfilename()
-    # open directory
+    # open multiple files
     file_path = filedialog.askopenfiles(filetypes=(("mp3 files", "*.mp3"), ("all files", "*.*")))
     root.destroy()
     get_files(file_path)
