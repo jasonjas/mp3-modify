@@ -18,10 +18,6 @@ def main():
 
 
 def get_files(item_path):
-    # if path.isdir(item_path):
-    #    for mp3file in pathlib.Path(item_path).glob('*.mp3'):
-    #        modify_mp3_file(mp3file)
-    # else:
     modify_mp3_file(item_path)
 
 def rename_file(file, newname):
